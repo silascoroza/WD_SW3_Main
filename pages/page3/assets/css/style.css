@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+section.name h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+header .box {
+    display: flex;
+    align-items: center;
+}
+
+header .box img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .box p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav button:hover {
+    background-color: #0056b3;
+}
+
+nav button:active {
+    transform: scale(0.95);
+}
+
+/* Design 1 specific styles */
+.design1 {
+    background-color: #ffecb3;
+}
+
+/* Design 2 specific styles */
+.design2 {
+    background-color: #ffe0b2;
+}
+
+.design2 .box#box3 .icon-container img {
+    height: 30px;
+}
+
+/* Design 3 specific styles */
+.design3 {
+    background-color: #dcedc8;
+}
+
+.design3 .image-container img {
+    height: 50px;
+}
+
+/* Design 4 specific styles */
+.design4 {
+    background-color: #f0f4c3;
+}
+
+.design4 .image-containera img {
+    height: 50px;
+}
+
+.design4 .icon-container img {
+    height: 30px;
+}
+
+/* Design 5 specific styles */
+.design5 {
+    background-color: #f8bbd0;
+}
+
+.design5 .icon-containerr img,
+.design5 .icon-containert img,
+.design5 .icon-containerx img {
+    height: 30px;
+}
+
+/* Design 6 specific styles */
+.design6 {
+    background-color: #c8e6c9;
+}
+
+.design6 .box img {
+    transition: transform 0.3s;
+}
+
+.design6 .box img:hover {
+    transform: rotate(20deg);
+}
+
+.design6 .box p {
+    cursor: pointer;
+    transition: font-size 0.3s, color 0.3s;
+}
+
+.design6 .box p:active {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.design6 nav button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.design6 nav button:hover {
+    background-color: #0056b3;
+}
+
+.design6 nav button:active {
+    transform: scale(1.1);
+}
+
+/* Design 7 specific styles */
+.design7 {
+    background-color: #ffccbc;
+}
+
+.design7 .box img {
+    transition: transform 0.5s;
+}
+
+.design7 .box img:hover {
+    transform: translateY(-10px);
+}
+
+.design7 .box p {
+    cursor: pointer;
+    transition: font-size 0.3s, color 0.3s;
+}
+
+.design7 .box p:hover {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.design7 nav button {
+    transition: transform 0.3s;
+}
+
+.design7 nav button:hover {
+    transform: scale(1.1);
+}
+
+/* Design 8 specific styles */
+.design8 {
+    background-color: #ffeb3b;
+}
+
+.design8 .image-container8 img {
+    transition: transform 1s;
+}
+
+.design8 .image-container8 img:hover {
+    transform: rotate(360deg);
+}
+
+.design8 nav button {
+    transition: transform 1s;
+}
+
+.design8 nav button:hover {
+    transform: rotate(360deg);
+}
+
+/* Design 9 specific styles */
+.design9 {
+    background-color: #c5cae9;
+}
+
+.design9 .image-containeraa img,
+.design9 .box p {
+    transition: transform 1s;
+}
+
+.design9 .image-containeraa img:hover,
+.design9 .box p:hover {
+    transform: rotate(360deg);
+}
+
+.design9 .icon-containerqwe img {
+    transition: transform 0.5s;
+}
+
+.design9 .icon-containerqwe img:hover {
+    transform: scale(1.2);
+}
+
+/* Design 10 specific styles */
+.design10 {
+    background-color: #e1bee7;
+}
+
+.design10 .box img {
+    transition: transform 0.3s;
+}
+
+.design10 .box img:hover {
+    transform: skew(10deg);
+}
+
+.design10 nav button {
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.design10 nav button:hover {
+    transform: skew(10deg);
+    font-size: 1.2em;
+}
+
+.design10 .icon-containerrr img,
+.design10 .icon-containertt img,
+.design10 .icon-containerxx img {
+    transition: filter 0.3s;
+}
+
+.design10 .icon-containerrr img:hover,
+.design10 .icon-containertt img:hover,
+.design10 .icon-containerxx img:hover {
+    filter: brightness(1.2);
+}
