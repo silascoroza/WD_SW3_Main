@@ -1,0 +1,239 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+a {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section.name {
+    margin: 40px 0;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer h2, footer h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #555;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+/* Static Footer Designs */
+/* Design 1 */
+.design1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Design 2 */
+.design2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box2 {
+    order: 2;
+}
+
+#box3 {
+    order: 1;
+}
+
+/* Design 3 */
+.design3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#box4and5 {
+    display: flex;
+    flex-direction: column;
+}
+
+#box6 {
+    align-self: center;
+}
+
+/* Design 4 */
+.design4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#box7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box8910 {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+#box8, #box9, #box10 {
+    margin: 0 10px;
+}
+
+#box8 h3, #box9 h3, #box10 h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+/* Design 5 */
+.design5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#box131415 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#box11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box12 {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin-top: 10px;
+}
+
+/* Animated Footer Styles */
+/* Design 6 */
+footer.design6 nav h2 {
+    transition: color 0.5s, font-size 0.5s;
+}
+
+footer.design6 nav h2:hover {
+    color: #007bff;
+    font-size: 22px;
+}
+
+/* Design 7 */
+footer.design7 nav button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+footer.design7 nav button:hover {
+    transform: scale(1.1);
+}
+
+/* Design 8 */
+footer.design8 nav h2 {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+footer.design8 nav h2:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+footer.design8 img {
+    transition: transform 0.5s;
+}
+
+footer.design8 img:hover {
+    transform: scale(1.2);
+}
+
+/* Design 9 */
+footer.design9 img {
+    transition: transform 1s;
+}
+
+footer.design9 img:hover {
+    transform: rotate(360deg);
+}
+
+footer.design9 nav h2 {
+    transition: background-color 0.5s;
+}
+
+footer.design9 nav h2:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Design 10 */
+footer.design10 nav h3 {
+    transition: font-size 0.5s, color 0.5s;
+}
+
+footer.design10 nav h3:hover {
+    font-size: 22px;
+    color: #007bff;
+}
+
+footer.design10 #box27 img {
+    transition: transform 0.5s;
+}
+
+footer.design10 #box27 img:hover {
+    transform: scale(1.2);
+}
